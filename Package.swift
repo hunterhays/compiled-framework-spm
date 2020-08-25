@@ -35,10 +35,6 @@ let package = Package(
         //     url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Crypto.xcframework.zip",
         //     checksum: "80ed5b65c5f79f43e94f7417bf6860a69552195399308f066d68930409156784"
         // ),
-        .binaryTarget(
-            name: "FlurryMessaging", 
-            path: "artifacts/FlurryMessaging.xcframework"
-        ),
         .testTarget(
             name: "compiled-framework-spmTests",
             dependencies: ["compiled-framework-spm"]
