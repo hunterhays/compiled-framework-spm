@@ -27,9 +27,8 @@ let package = Package(
             dependencies: ["Logging"]
         ),
         .binaryTarget(
-            name: "Logging",
-            url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Logging.xcframework.zip",
-            checksum: "c246c715ac7f6fae9ef0a89e758a8514644071a164985b1e95d344a684d84621"
+            name: "FlurryMessaging",
+            url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Logging.xcframework.zip", checksum: <#String#>
         ),
         // .binaryTarget(
         //     name: "Crypto",
