@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "compiled-framework-spm",
     platforms: [
-        .macOS("10.15")
+        .iOS("14")
         ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
@@ -37,8 +37,8 @@ let package = Package(
         //     checksum: "80ed5b65c5f79f43e94f7417bf6860a69552195399308f066d68930409156784"
         // ),
         .binaryTarget(
-            name: "Crypto", 
-            path: "artifacts/Crypto.xcframework"
+            name: "FlurryMessaging", 
+            path: "artifacts/FlurryMessaging.xcframework"
         ),
         .testTarget(
             name: "compiled-framework-spmTests",
