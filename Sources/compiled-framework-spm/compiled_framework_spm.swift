@@ -1,6 +1,6 @@
 import Foundation
 import CryptoKit
-import Logging
+import FlurryMessaging
 
 let logger = Logger(label: "com.example.compiledFramework")
 
