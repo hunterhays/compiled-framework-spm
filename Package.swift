@@ -22,15 +22,6 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
-        .target(
-            name: "compiled-framework-spm",
-            dependencies: ["Logging"]
-        ),
-        .binaryTarget(
-            name: "Logging",
-            url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Logging.xcframework.zip",
-            checksum: "c246c715ac7f6fae9ef0a89e758a8514644071a164985b1e95d344a684d84621"
-        ),
         // .binaryTarget(
         //     name: "Crypto",
         //     url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Crypto.xcframework.zip",
