@@ -28,7 +28,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FlurryMessaging",
-            url: "https://github.com/hunterhays/compiled-framework-spm/blob/master/artifacts/FlurryMessaging.xcframework.zip", checksum: "1"
+            url: "https://github.com/hunterhays/compiled-framework-spm/blob/master/artifacts/FlurryMessaging.xcframework.zip", checksum: "925d916bb610a4b83f44b8f3e7a41a3595afbd4fa90c474e8e5ce572f95beaa7"
         ),
         // .binaryTarget(
         //     name: "Crypto",
