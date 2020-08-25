@@ -24,11 +24,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "compiled-framework-spm",
-            dependencies: ["Logging"]
+            dependencies: ["FlurryMessaging"]
         ),
         .binaryTarget(
             name: "FlurryMessaging",
-            url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Logging.xcframework.zip", checksum: <#String#>
+            url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Logging.xcframework.zip", checksum: "1"
         ),
         // .binaryTarget(
         //     name: "Crypto",
