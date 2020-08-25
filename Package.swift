@@ -30,6 +30,14 @@ let package = Package(
             name: "FlurryMessaging",
             path: "artifacts/FlurryMessaging.xcframework"
         ),
+        .binaryTarget(
+            name: "FlurryConfig",
+            path: "artifacts/FlurryConfig.xcframework"
+        ),
+        .binaryTarget(
+            name: "Flurry",
+            path: "artifacts/Flurry.xcframework"
+        ),
         // .binaryTarget(
         //     name: "Crypto",
         //     url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Crypto.xcframework.zip",
